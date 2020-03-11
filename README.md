@@ -1,4 +1,4 @@
-# Earnings Management: Predicting Total Accruals using Jones Model
+# Earnings Management: Modified Jones Model
 Author: [Varun Ganti](https://github.com/varunganti33)
 
 

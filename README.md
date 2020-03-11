@@ -35,15 +35,15 @@ Our approach to picking the best model, is by assessing the R2 Score and the cro
 ## Data Dictionary
 - Refer to Sec for Data Description
 
-1. SUB is identifies all the EDGAR submissions in the data set, with each row having the unique (primary) key adsh, a 20 character EDGAR Accession Number with dashes in positions 11 and 14.
+1. ####### SUB is identifies all the EDGAR submissions in the data set, with each row having the unique (primary) key adsh, a 20 character EDGAR Accession Number with dashes in positions 11 and 14.
 
-2. TAG is a data set of all tags used in the submissions, both standard and custom. A unique key of each row is a combination of these fields:
+2.  ####### TAG is a data set of all tags used in the submissions, both standard and custom. A unique key of each row is a combination of these fields:
 
  1)    tag – tag used by the filer
 
  2)    version – if a standard tag, the taxonomy of origin, otherwise equal to adsh.
 
-3. NUM is a data set of all numeric XBRL facts presented on the primary financial statements. A unique key of each row is a combination of the following fields:
+3.  ####### NUM is a data set of all numeric XBRL facts presented on the primary financial statements. A unique key of each row is a combination of the following fields:
 
  1)    adsh- EDGAR accession number
 
@@ -58,7 +58,7 @@ Our approach to picking the best model, is by assessing the R2 Score and the cro
  6)    uom - unit of measure
 
  7)    coreg - coregistrant of the parent company registrant (if applicable)
-4. PRE is a data set that provides the text assigned by the filer to each line item in the primary financial statements, the order in which the line item appeared, and the tag assigned to it. A unique key of each row is a combination of the following fields:
+4.  ####### PRE is a data set that provides the text assigned by the filer to each line item in the primary financial statements, the order in which the line item appeared, and the tag assigned to it. A unique key of each row is a combination of the following fields:
 
   1)    adsh – EDGAR accession number
 

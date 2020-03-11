@@ -39,32 +39,32 @@ Our approach to picking the best model, is by assessing the R2 Score and the cro
 
 -  #### TAG is a data set of all tags used in the submissions, both standard and custom. A unique key of each row is a combination of these fields:
 
- 1)    tag – tag used by the filer
+    1)    tag – tag used by the filer
 
- 2)    version – if a standard tag, the taxonomy of origin, otherwise equal to adsh.
+    2)    version – if a standard tag, the taxonomy of origin, otherwise equal to adsh.
 
 -  #### NUM is a data set of all numeric XBRL facts presented on the primary financial statements. A unique key of each row is a combination of the following fields:
 
- 1)    adsh- EDGAR accession number
+    1)    adsh- EDGAR accession number
 
- 2)    tag – tag used by the filer
+    2)    tag – tag used by the filer
 
- 3)    version – if a standard tag, the taxonomy of origin, otherwise equal to adsh.
+    3)    version – if a standard tag, the taxonomy of origin, otherwise equal to adsh.
 
- 4)    ddate - period end date
+    4)    ddate - period end date
 
- 5)    qtrs - duration in number of quarters
+    5)    qtrs - duration in number of quarters
 
- 6)    uom - unit of measure
+    6)    uom - unit of measure
 
- 7)    coreg - coregistrant of the parent company registrant (if applicable)
+    7)    coreg - coregistrant of the parent company registrant (if applicable)
 -   #### PRE is a data set that provides the text assigned by the filer to each line item in the primary financial statements, the order in which the line item appeared, and the tag assigned to it. A unique key of each row is a combination of the following fields:
 
-  1)    adsh – EDGAR accession number
+    1)    adsh – EDGAR accession number
 
-  2)    report – sequential number of report within the statements
+    2)    report – sequential number of report within the statements
 
-  3)    line – sequential number of line within a report.
+    3)    line – sequential number of line within a report.
 
 ## Feature Engineering
 

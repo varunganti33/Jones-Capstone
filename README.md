@@ -1,5 +1,4 @@
-# Financial Statement Audit: Predicting Total Accruals: 
-### Modifications to Jones Model made by Varun Ganti
+# Earnings Management: Predicting Total Accruals using Jones Model
 Author: [Varun Ganti](https://github.com/varunganti33)
 
 
